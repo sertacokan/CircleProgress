@@ -1,7 +1,7 @@
 # CircleProgress
  
  
--Example 
+-Example with all attrributes
  
   <com.sertac.sertac.circleprogress.CircleProgress  
  
