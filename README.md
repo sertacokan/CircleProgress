@@ -3,7 +3,8 @@
  
 -Example 
  
- <com.sertac.sertac.circleprogress.CircleProgress    
+  <com.sertac.sertac.circleprogress.CircleProgress  
+ 
 		android:layout_width="match_parent"
 		android:layout_height="100dp"
         	app:progress_color="@color/colorAccent"
@@ -33,6 +34,7 @@
 -Gradle
 	allprojects {
 		repositories {
+		
 			maven { url 'https://jitpack.io' }
 		}
 	}
