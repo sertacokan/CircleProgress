@@ -33,13 +33,13 @@
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
-	</repositories>
-	
-  <dependency>
+	</repositories>	
+	<dependency>
 	    <groupId>com.github.sertacokan</groupId>
 	    <artifactId>CircleProgress</artifactId>
 	    <version>-SNAPSHOT</version>
 	</dependency>
+  
   
   -SBT
   
