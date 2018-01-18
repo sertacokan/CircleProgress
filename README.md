@@ -5,16 +5,16 @@
  
  <com.sertac.sertac.circleprogress.CircleProgress
         
-	android:layout_width="match_parent"
-	android:layout_height="100dp"
-        app:progress_color="@color/colorAccent"
-        app:progress_line_width="15dp"
-        app:background_progress_color="@color/colorPrimaryDark"
-        app:background_progress_line_width="6dp"
-        app:text_color="@color/colorPrimary"
-        app:text_size="10sp"
-        android:max="25"
-        app:progress="2"/>
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+        	app:progress_color="@color/colorAccent"
+        	app:progress_line_width="15dp"
+        	app:background_progress_color="@color/colorPrimaryDark"
+        	app:background_progress_line_width="6dp"
+        	app:text_color="@color/colorPrimary"
+        	app:text_size="10sp"
+        	android:max="25"
+        	app:progress="2"/>
         
  -Attributes
  
@@ -34,7 +34,7 @@
 -Gradle
 	allprojects {
 		repositories {
-			...
+			
 			maven { url 'https://jitpack.io' }
 		}
 	}
