@@ -3,8 +3,7 @@
  
 -Example 
  
- <com.sertac.sertac.circleprogress.CircleProgress
-        
+ <com.sertac.sertac.circleprogress.CircleProgress    
 		android:layout_width="match_parent"
 		android:layout_height="100dp"
         	app:progress_color="@color/colorAccent"
@@ -34,14 +33,12 @@
 -Gradle
 	allprojects {
 		repositories {
-			
 			maven { url 'https://jitpack.io' }
 		}
 	}
   
-  dependencies {
-	        compile 'com.github.sertacokan:CircleProgress:-SNAPSHOT'
-	}
+  compile 'com.github.sertacokan:CircleProgress:-SNAPSHOT'
+	
   
   -Maven
   
@@ -51,7 +48,7 @@
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-  
+	
   <dependency>
 	    <groupId>com.github.sertacokan</groupId>
 	    <artifactId>CircleProgress</artifactId>
@@ -69,6 +66,7 @@
     :repositories [["jitpack" "https://jitpack.io"]]
         	
 	 :dependencies [[com.github.sertacokan/CircleProgress "-SNAPSHOT"]]	
+
 
 I used some codes of dinuscxj/CircleProgressBar
 
