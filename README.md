@@ -4,8 +4,9 @@
 -Example 
  
  <com.sertac.sertac.circleprogress.CircleProgress
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        
+	android:layout_width="match_parent"
+	android:layout_height="100dp"
         app:progress_color="@color/colorAccent"
         app:progress_line_width="15dp"
         app:background_progress_color="@color/colorPrimaryDark"
