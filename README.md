@@ -15,21 +15,6 @@
         	app:text_size="10sp"
         	android:max="25"
         	app:progress="2"/>
-        
- -Attributes
- 
- <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="CircleProgress">
-        <attr name="progress_color" format="color|reference" />
-        <attr name="progress_line_width" format="dimension|reference"/>
-        <attr name="background_progress_color" format="color|reference"/>
-        <attr name="background_progress_line_width" format="dimension|reference"/>
-        <attr name="text_color" format="color|reference"/>
-        <attr name="text_size" format="dimension|reference"/>
-        <attr name="progress" format="integer|reference"/>
-    </declare-styleable>
-</resources>
 
 -Gradle
 	allprojects {
