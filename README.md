@@ -1,5 +1,6 @@
 # CircleProgress
  
+ Simple Circle Progress
  
 -Example with all attrributes
  
