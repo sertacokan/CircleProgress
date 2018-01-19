@@ -17,6 +17,7 @@
         	app:progress="2"/>
 
 -Gradle
+
 	allprojects {
 		repositories {
 		
