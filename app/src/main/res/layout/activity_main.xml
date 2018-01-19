@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:progress_color="@color/colorAccent"
-        app:progress_line_width="15dp"
+        app:progress_line_width="10dp"
         app:background_progress_color="@color/colorPrimaryDark"
-        app:background_progress_line_width="6dp"
+        app:background_progress_line_width="16dp"
         app:text_color="@color/colorPrimary"
-        app:text_size="10sp"
+        app:text_size="15sp"
         android:max="25"
         app:progress="2"/>
 
