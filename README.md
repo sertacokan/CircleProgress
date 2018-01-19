@@ -1,5 +1,6 @@
 # CircleProgress
  
+ Simple Circle Progress
  
 -Example with all attrributes
  
@@ -17,6 +18,7 @@
         	app:progress="2"/>
 
 -Gradle
+
 	allprojects {
 		repositories {
 		
