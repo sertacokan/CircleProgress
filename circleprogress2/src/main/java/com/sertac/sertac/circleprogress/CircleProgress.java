@@ -54,6 +54,9 @@ public class CircleProgress extends ProgressBar {
         adjustIndeterminate();
     }
 
+
+    //Set circle progress attributes
+
     private void initAttributes(Context context, AttributeSet attrs) {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CircleProgress);
         try {
@@ -69,6 +72,8 @@ public class CircleProgress extends ProgressBar {
         }
 
     }
+
+    //set circle progress paints
 
     private void initPaints() {
 
@@ -99,13 +104,19 @@ public class CircleProgress extends ProgressBar {
         drawProgressText(canvas);
     }
 
+    //drawing background progress line
+
     private void drawBackgroundProgressLine(Canvas canvas) {
         canvas.drawArc(rectF,DEFAULT_START_DEGREE,360.0f,false,progressBackgroundLinePaint);
     }
 
+    //drawing progress line
+
     private void drawProgressLine(Canvas canvas) {
         canvas.drawArc(rectF,DEFAULT_START_DEGREE,360.0f*progress/getMax(),false,progressPaint);
     }
+
+    //drawing center text of circle progress
 
     private void drawProgressText(Canvas canvas) {
         String progressText=progress+"/"+getMax();
@@ -118,6 +129,9 @@ public class CircleProgress extends ProgressBar {
         super.onSizeChanged(w, h, oldw, oldh);
         centerX = w / 2;
         centerY = h / 2;
+
+        //top and left negative side of centers
+        //bottom and right positive side of centers
 
         radius = Math.min(centerX, centerY);
         rectF.top = centerY - radius;
@@ -150,6 +164,10 @@ public class CircleProgress extends ProgressBar {
             e.printStackTrace();
         }
     }
+
+
+    //set and get methods of circle progress
+
     public int getProgressColor() {
         return progressColor;
     }
