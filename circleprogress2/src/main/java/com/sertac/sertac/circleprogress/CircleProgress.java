@@ -61,11 +61,11 @@ public class CircleProgress extends ProgressBar {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CircleProgress);
         try {
             progressColor = typedArray.getColor(R.styleable.CircleProgress_progress_color, Color.parseColor(DEFAULT_PROGRESS_COLOR));
-            progressLineWidth = typedArray.getDimensionPixelSize(R.styleable.CircleProgress_progress_line_width, dpToPx(getContext(), DEFAULT_PROGRESS_LINE_WIDTH));
+            progressLineWidth = typedArray.getDimensionPixelSize(R.styleable.CircleProgress_progress_line_width, dpToPx(DEFAULT_PROGRESS_LINE_WIDTH));
             progressBackgroundColor = typedArray.getColor(R.styleable.CircleProgress_background_progress_color, Color.parseColor(DEFAULT_BACKGROUND_COLOR));
-            backgroundProgressLineWidth = typedArray.getDimensionPixelOffset(R.styleable.CircleProgress_background_progress_line_width, dpToPx(getContext(), DEFAULT_BACKGROUND_LINE_WIDTH));
-            progressTextColor = typedArray.getColor(R.styleable.CircleProgress_text_color, dpToPx(getContext(), Color.parseColor(DEFAULT_TEXT_COLOR)));
-            progressTextSize = typedArray.getDimensionPixelSize(R.styleable.CircleProgress_text_size, dpToPx(getContext(), DEFAULT_PROGRESS_TEXT_SIZE));
+            backgroundProgressLineWidth = typedArray.getDimensionPixelOffset(R.styleable.CircleProgress_background_progress_line_width, dpToPx(DEFAULT_BACKGROUND_LINE_WIDTH));
+            progressTextColor = typedArray.getColor(R.styleable.CircleProgress_text_color, dpToPx(Color.parseColor(DEFAULT_TEXT_COLOR)));
+            progressTextSize = typedArray.getDimensionPixelSize(R.styleable.CircleProgress_text_size, dpToPx(DEFAULT_PROGRESS_TEXT_SIZE));
             progress=typedArray.getInt(R.styleable.CircleProgress_progress,progress);
         } finally {
             typedArray.recycle();
@@ -91,8 +91,8 @@ public class CircleProgress extends ProgressBar {
 
     }
 
-    private int dpToPx(Context context, float dpValue) {
-        final float scale = context.getResources().getDisplayMetrics().density;
+    private int dpToPx(float dpValue) {
+        final float scale = getContext().getResources().getDisplayMetrics().density;
         return (int) (dpValue * scale + 0.5f);
     }
 
