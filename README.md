@@ -2,7 +2,7 @@
  
  Simple Circle Progress
  
--Example with all attrributes
+-All attrributes
  
   <com.sertac.sertac.circleprogress.CircleProgress  
  
@@ -25,7 +25,8 @@
 		 maven { url 'https://jitpack.io' }
 		}
 	}
-  compile 'com.github.sertacokan:CircleProgress:-SNAPSHOT'
+              
+  implementation 'com.github.sertacokan:CircleProgress:-SNAPSHOT'
 	
   
   -Maven
@@ -41,8 +42,7 @@
 	    <artifactId>CircleProgress</artifactId>
 	    <version>-SNAPSHOT</version>
 	</dependency>
-  
-  
+   
   -SBT
   
     resolvers += "jitpack" at "https://jitpack.io"
@@ -55,9 +55,6 @@
         	
 	 :dependencies [[com.github.sertacokan/CircleProgress "-SNAPSHOT"]]	
 
-
-I used some codes of dinuscxj/CircleProgressBar
-
-        
+                                    
     
     
