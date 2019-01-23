@@ -1,10 +1,11 @@
 # CircleProgress
  
-### Simple Circle Progress
+## Simple Circle Progress
 
  ---
-##### All attrributes
- 
+## All attrributes
+
+ ``` Java
 	  <com.sertac.sertac.circleprogress.CircleProgress  
 			android:layout_width="match_parent"
 			android:layout_height="100dp"
@@ -16,11 +17,12 @@
         		app:text_size="10sp"
         		android:max="25"
         		app:progress="2"/>
-		
+```
 ---
+## Usage
 
 ##### Gradle
-
+```
 	allprojects {
 		repositories {
 		
@@ -28,8 +30,9 @@
 		}
 	}
               
-  **implementation 'com.github.sertacokan:CircleProgress:-SNAPSHOT'**
-	
+  implementation 'com.github.sertacokan:CircleProgress:-SNAPSHOT'
+  
+  ```  
   ---
 ##### Maven
   
@@ -58,6 +61,9 @@
         	
     :dependencies [[com.github.sertacokan/CircleProgress "-SNAPSHOT"]]	
 ---
+## License
+
+[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
                                     
     
     
