@@ -1,8 +1,7 @@
 # CircleProgress
- 
-## Simple Circle Progress
 
- ---
+[Screenshots](https://github.com/sertacokan/CircleProgress/tree/master/app/src/main/res/drawable)
+
 ## All attrributes
 
  ``` Java
@@ -18,7 +17,7 @@
         		android:max="25"
         		app:progress="2"/>
 ```
----
+
 ## Usage
 
 ##### Gradle
@@ -33,9 +32,9 @@
   implementation 'com.github.sertacokan:CircleProgress:-SNAPSHOT'
   
   ```  
-  ---
-##### Maven
   
+##### Maven
+  ```
   	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -47,20 +46,21 @@
 	    <artifactId>CircleProgress</artifactId>
 	    <version>-SNAPSHOT</version>
 	</dependency>
-   ---
-   
+
+```
 ##### SBT
-  
+  ```
     resolvers += "jitpack" at "https://jitpack.io"
     	
 	libraryDependencies += "com.github.sertacokan" % "CircleProgress" % "-SNAPSHOT"	
----
-##### Leiningen
 
+```
+##### Leiningen
+```
     :repositories [["jitpack" "https://jitpack.io"]]
         	
     :dependencies [[com.github.sertacokan/CircleProgress "-SNAPSHOT"]]	
----
+```    
 ## License
 
 [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
