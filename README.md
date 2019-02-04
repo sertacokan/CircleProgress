@@ -1,7 +1,10 @@
 # CircleProgress
 
-      
-![First Usage](CircleProgress/app/src/main/res/drawable/Screenshot1.png?raw=true)
+## Screenshots
+
+![First Usage](https://github.com/sertacokan/CircleProgress/blob/master/app/src/main/res/drawable/Screenshot1.png?raw=true)
+![Second Usage](https://github.com/sertacokan/CircleProgress/blob/master/app/src/main/res/drawable/Screenshot2.png?raw=true)
+![Third Usage](https://github.com/sertacokan/CircleProgress/blob/master/app/src/main/res/drawable/Screenshot3.png?raw=true)
 
 ## All attrributes
 
