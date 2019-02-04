@@ -1,6 +1,7 @@
 # CircleProgress
 
-> [Screenshots](https://github.com/sertacokan/CircleProgress/tree/master/app/src/main/res/drawable)
+      
+![First Usage](CircleProgress/app/src/main/res/drawable/Screenshot1.png?raw=true)
 
 ## All attrributes
 
